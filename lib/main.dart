@@ -1,4 +1,6 @@
+import 'package:amk/widgets/button.dart';
 import 'package:amk/widgets/container_sized.dart';
+import 'package:amk/widgets/list_grid.dart';
 import 'package:amk/widgets/rowscol.dart';
 import 'package:flutter/material.dart';
 
@@ -19,9 +21,9 @@ class myApp extends StatelessWidget {
       theme: ThemeData(
 
         brightness: Brightness.dark,
-        primaryColor: Colors.deepPurpleAccent,
+        primaryColor: Colors.purpleAccent,
       ),
-      home: RowsCols(),
+      home: ListGrid(),
     );
   }
 }
