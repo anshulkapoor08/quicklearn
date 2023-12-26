@@ -1,8 +1,11 @@
 import 'package:amk/widgets/button.dart';
 import 'package:amk/widgets/container_sized.dart';
+import 'package:amk/widgets/dissimible.dart';
+import 'package:amk/widgets/format.dart';
 import 'package:amk/widgets/list_grid.dart';
 import 'package:amk/widgets/rowscol.dart';
 import 'package:flutter/material.dart';
+import 'package:amk/widgets/snackbar.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -23,7 +26,7 @@ class myApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purpleAccent,
       ),
-      home: ListGrid(),
+      home: const DismissibleWidget(),
     );
   }
 }

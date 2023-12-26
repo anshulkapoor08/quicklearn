@@ -37,21 +37,18 @@ class ButtonWidget extends StatelessWidget {
               height: 50,
               width: 150,
               child: ElevatedButton(
-                style: ButtonStyle(
-                  shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30),
-                  )),
-                  backgroundColor: MaterialStateProperty.all(Theme.of(context).primaryColor)
-                ),
+                  style: ButtonStyle(
+                      shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30),
+                      )),
+                      backgroundColor: MaterialStateProperty.all(
+                          Theme.of(context).primaryColor)),
                   onPressed: () {
                     print('Elevated Button');
                   },
                   child: Text(
                     'Like me',
-                    style: TextStyle(
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold
-                    ),
+                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                   )),
             ),
           ],
