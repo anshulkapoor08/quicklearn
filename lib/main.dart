@@ -1,7 +1,9 @@
 import 'package:amk/widgets/button.dart';
 import 'package:amk/widgets/container_sized.dart';
 import 'package:amk/widgets/dissimible.dart';
+import 'package:amk/widgets/drawer.dart';
 import 'package:amk/widgets/format.dart';
+import 'package:amk/widgets/image.dart';
 import 'package:amk/widgets/list_grid.dart';
 import 'package:amk/widgets/rowscol.dart';
 import 'package:flutter/material.dart';
@@ -26,7 +28,7 @@ class myApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const DismissibleWidget(),
+      home: const ImageWidget(),
     );
   }
 }
