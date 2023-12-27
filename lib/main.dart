@@ -1,4 +1,6 @@
 import 'package:amk/widgets/alert.dart';
+import 'package:amk/widgets/animatedtext.dart';
+import 'package:amk/widgets/bottomnav.dart';
 import 'package:amk/widgets/bottomsheet.dart';
 import 'package:amk/widgets/button.dart';
 import 'package:amk/widgets/container_sized.dart';
@@ -30,7 +32,7 @@ class myApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const BottomSheetWidget(),
+      home: const BottomNav(),
     );
   }
 }

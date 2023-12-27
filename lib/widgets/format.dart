@@ -8,15 +8,9 @@ class Format extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.teal,
-        title: Text(
-          'Your Title',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 20,
-            color: Colors.white,
-          ),
-        ),
-      ),
+        title: Text('Your Title', style: TextStyle(
+            fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white,),
+        ),),
     );
   }
 }
