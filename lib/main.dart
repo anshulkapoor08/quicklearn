@@ -1,3 +1,5 @@
+import 'package:amk/widgets/alert.dart';
+import 'package:amk/widgets/bottomsheet.dart';
 import 'package:amk/widgets/button.dart';
 import 'package:amk/widgets/container_sized.dart';
 import 'package:amk/widgets/dissimible.dart';
@@ -25,10 +27,10 @@ class myApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const ImageWidget(),
+      home: const BottomSheetWidget(),
     );
   }
 }
