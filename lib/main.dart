@@ -6,7 +6,9 @@ import 'package:amk/widgets/button.dart';
 import 'package:amk/widgets/container_sized.dart';
 import 'package:amk/widgets/dissimible.dart';
 import 'package:amk/widgets/drawer.dart';
+import 'package:amk/widgets/dropdown.dart';
 import 'package:amk/widgets/format.dart';
+import 'package:amk/widgets/forms.dart';
 import 'package:amk/widgets/image.dart';
 import 'package:amk/widgets/list_grid.dart';
 import 'package:amk/widgets/rowscol.dart';
@@ -32,7 +34,7 @@ class myApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const BottomNav(),
+      home: const FormsWidget(),
     );
   }
 }
