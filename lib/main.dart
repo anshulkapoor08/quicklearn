@@ -12,6 +12,8 @@ import 'package:amk/widgets/forms.dart';
 import 'package:amk/widgets/image.dart';
 import 'package:amk/widgets/list_grid.dart';
 import 'package:amk/widgets/rowscol.dart';
+import 'package:amk/widgets/stack.dart';
+import 'package:amk/widgets/tabBar.dart';
 import 'package:flutter/material.dart';
 import 'package:amk/widgets/snackbar.dart';
 
@@ -31,10 +33,10 @@ class myApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const FormsWidget(),
+      home: const TabBarWidget(),
     );
   }
 }
