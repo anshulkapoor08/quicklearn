@@ -12,9 +12,9 @@ class _FormatState extends State<Format> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.teal,
-        title: Text('Your Title', style: TextStyle(
-            fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white,),
+        backgroundColor: Colors.green.shade900,
+        title: Text('Clonning', style: TextStyle(
+          fontWeight: FontWeight.bold, fontSize: 23, color: Colors.white,),
         ),),
     );
   }

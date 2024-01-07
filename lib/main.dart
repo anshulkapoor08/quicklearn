@@ -16,6 +16,7 @@ import 'package:amk/widgets/location.dart';
 import 'package:amk/widgets/rowscol.dart';
 import 'package:amk/widgets/stack.dart';
 import 'package:amk/widgets/tabBar.dart';
+import 'package:amk/widgets/uiclone.dart';
 import 'package:flutter/material.dart';
 import 'package:amk/widgets/snackbar.dart';
 
@@ -35,10 +36,10 @@ class myApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const LocationWidget(),
+      home: const UIClone(),
     );
   }
 }
