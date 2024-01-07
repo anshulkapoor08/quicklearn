@@ -10,6 +10,7 @@ import 'package:amk/widgets/dropdown.dart';
 import 'package:amk/widgets/format.dart';
 import 'package:amk/widgets/forms.dart';
 import 'package:amk/widgets/image.dart';
+import 'package:amk/widgets/imagepicker.dart';
 import 'package:amk/widgets/list_grid.dart';
 import 'package:amk/widgets/rowscol.dart';
 import 'package:amk/widgets/stack.dart';
@@ -36,7 +37,7 @@ class myApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const TabBarWidget(),
+      home: const ImagepickerWidget(),
     );
   }
 }
