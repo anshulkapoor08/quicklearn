@@ -3,6 +3,7 @@ import 'package:amk/widgets/animatedtext.dart';
 import 'package:amk/widgets/bottomnav.dart';
 import 'package:amk/widgets/bottomsheet.dart';
 import 'package:amk/widgets/button.dart';
+import 'package:amk/widgets/complexui.dart';
 import 'package:amk/widgets/container_sized.dart';
 import 'package:amk/widgets/dissimible.dart';
 import 'package:amk/widgets/drawer.dart';
@@ -36,10 +37,10 @@ class myApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const UIClone(),
+      home: const ComplexUI(),
     );
   }
 }

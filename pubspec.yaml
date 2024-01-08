@@ -41,7 +41,19 @@ dependencies:
   geolocator: ^10.1.0
   fluttertoast: ^8.2.4
 
+
 dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: 2.3.7
+
+flutter icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: "assets/logo.png"
   flutter_test:
     sdk: flutter
 
