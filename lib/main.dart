@@ -18,10 +18,12 @@ import 'package:amk/widgets/rowscol.dart';
 import 'package:amk/widgets/stack.dart';
 import 'package:amk/widgets/tabBar.dart';
 import 'package:amk/widgets/uiclone.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:amk/widgets/snackbar.dart';
 
-void main() {
+void main() async{
+  await Firebase.initializeApp();
   runApp(const MaterialApp(
     home: myApp(),
     debugShowCheckedModeBanner: false,

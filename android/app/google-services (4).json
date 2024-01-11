@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690918786836",
+    "project_id": "quicklearn-fafd6",
+    "storage_bucket": "quicklearn-fafd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690918786836:android:d6643496d65207d41a2401",
+        "android_client_info": {
+          "package_name": "com.example.amk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhsyAeXGToz0HWldfLyBETlMgnn1Rl6po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

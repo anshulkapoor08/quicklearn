@@ -193,6 +193,54 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.9.3+1"
+  firebase_auth:
+    dependency: "direct main"
+    description:
+      name: firebase_auth
+      sha256: "27418cf05ee4fe19ce33d8a545e517c64a0c1390bcb077c37883c18f9be402a9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.4.0"
+  firebase_auth_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_auth_platform_interface
+      sha256: "1a13abdc5b0bfd9cd02c15332842ef03f728e5e393ab673d2fa87b05a9b67df0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.10.0"
+  firebase_auth_web:
+    dependency: transitive
+    description:
+      name: firebase_auth_web
+      sha256: ca0597f61acf87afef4dc7c5fbc8e47953c42b2f6fe9c45f868936a8e3422d70
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.3.18"
+  firebase_core:
+    dependency: "direct main"
+    description:
+      name: firebase_core
+      sha256: "776fc0d7a0da72adfb7e486c6be05798b7f4290a8be4819cb1e6cc93077e60f2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.19.0"
+  firebase_core_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_core_platform_interface
+      sha256: "3cd70171c6bdd314d726a46706c75554b75b20b97869dbace71832615ea8ef3c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.4.1"
+  firebase_core_web:
+    dependency: transitive
+    description:
+      name: firebase_core_web
+      sha256: eed8abeec3d504df05019b6a5c781aa01f76491d51ff60579d855c4b2197f116
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.6.5"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -387,6 +435,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.1+1"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      sha256: "910f85bce16fb5c6f614e117efa303e85a1731bb0081edf3604a2ae6e9a3cc91"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.17.0"
   js:
     dependency: transitive
     description:
