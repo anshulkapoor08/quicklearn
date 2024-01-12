@@ -1,5 +1,6 @@
 import 'package:amk/widgets/alert.dart';
 import 'package:amk/widgets/animatedtext.dart';
+import 'package:amk/widgets/authfile.dart';
 import 'package:amk/widgets/bottomnav.dart';
 import 'package:amk/widgets/bottomsheet.dart';
 import 'package:amk/widgets/button.dart';
@@ -23,6 +24,7 @@ import 'package:flutter/material.dart';
 import 'package:amk/widgets/snackbar.dart';
 
 void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(const MaterialApp(
     home: myApp(),
@@ -42,7 +44,7 @@ class myApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const ComplexUI(),
+      home: const Authenticaton(),
     );
   }
 }
