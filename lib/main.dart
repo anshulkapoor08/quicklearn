@@ -19,13 +19,13 @@ import 'package:amk/widgets/rowscol.dart';
 import 'package:amk/widgets/stack.dart';
 import 'package:amk/widgets/tabBar.dart';
 import 'package:amk/widgets/uiclone.dart';
-import 'package:firebase_core/firebase_core.dart';
+//import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:amk/widgets/snackbar.dart';
 
 Future main() async{
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+ /*WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();*/
   runApp(const MaterialApp(
     home: myApp(),
     debugShowCheckedModeBanner: false,
@@ -44,7 +44,7 @@ class myApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purpleAccent,
       ),
-      home: const Authenticaton(),
+      home: const ComplexUI(),
     );
   }
 }
